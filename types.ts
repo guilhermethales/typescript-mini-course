@@ -51,3 +51,12 @@ let cart: object;
 cart = {
   key: 'fi'
 }
+
+// Type Inference
+let message2: string = 'defined message';
+message2 = 'new string';
+// message2 = true; A new type isn't allow
+
+window.addEventListener('click', (e) => {
+  console.log(e.target);
+})
